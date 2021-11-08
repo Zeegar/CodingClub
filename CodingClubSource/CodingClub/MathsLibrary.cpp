@@ -3,6 +3,13 @@ int multiply(const int a, const int b)
 	return a * b;
 }
 
+int addition(const int a, const int b)
+{
+	return a + b;
+}
+
+
+
 void clamp(int &value, const int min, const int max)
 {
 	if (value < min)

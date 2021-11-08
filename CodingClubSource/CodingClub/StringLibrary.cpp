@@ -16,12 +16,17 @@ std::string removeVowels(const std::string input)
 		case 'o':
 		case 'u':
 			break;
+		case 'A':
+		case 'E':
+		case 'I':
+		case 'O':
+		case 'U':
+			break;
 
 		default:
 			returnString += c;
 			break;
 		}
 	}
-
 	return returnString;
 }
